@@ -3,14 +3,13 @@
 ctf prep 
 
 
-
-shell code
-
-http://shell-storm.org/shellcode/
-
-
-Git rob
-https://github.com/michenriksen/gitrob
+oracle's virtual box http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html
+ubuntu  https://www.ubuntu.com/download/desktop/thank-you?version=16.04.1&architecture=amd64
+shell code home page : http://shell-storm.org/shellcode/
+minigw :http://www.mingw.org/
+IDA  
+python  https://www.python.org/downloads/
+sublime  https://www.sublimetext.com/3
 
 
 ---------------------THP2----------------------------------- dup from  cheetz's git hub page  for ease
