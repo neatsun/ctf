@@ -12,6 +12,7 @@ python  https://www.python.org/downloads/
 sublime  https://www.sublimetext.com/3
 sysinternals https://technet.microsoft.com/en-us/sysinternals/bb896653
 cygwin https://cygwin.com/install.html
+wireshark https://www.wireshark.org/#download
 
 
 ---------------------THP2----------------------------------- dup from  cheetz's git hub page  for ease
