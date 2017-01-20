@@ -4,6 +4,7 @@ ctf prep
 
 
 oracle's virtual box http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html
+
 ubuntu  https://www.ubuntu.com/download/desktop/thank-you?version=16.04.1&architecture=amd64
 kali linux - http://www.kali.org/downloads/ or https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/ (u: root p:toor)
 minigw :http://www.mingw.org/
