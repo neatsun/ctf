@@ -269,3 +269,14 @@ Phishing (Optional):
 
 
 -------------- end of THP2 -----------
+
+-----ELF---------
+readelf is a Unix binary utility that displays information about one or more ELF files. A free software implementation is provided by GNU Binutils.
+
+elfutils provides alternative tools to GNU Binutils purely for Linux.
+
+elfdump is a command for viewing ELF information in an ELF file, available under Solaris and FreeBSD.
+
+objdump provides a wide range of information about ELF files and other object formats. objdump uses the Binary File Descriptor library as a back-end to structure the ELF data.
+
+The Unix file utility can display some information about ELF files, including the instruction set architecture for which the code in a relocatable, executable, or shared object file is intended, or on which an ELF core dump was produced.
