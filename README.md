@@ -22,15 +22,21 @@ sysinternals https://technet.microsoft.com/en-us/sysinternals/bb896653
 cygwin https://cygwin.com/install.html
 
 wireshark https://www.wireshark.org/#download
+
 x64 debuger http://x64dbg.com/#start
+
 metaspoit https://www.rapid7.com/products/metasploit/download.jsp
 
 ---------usefull ------
+
 tmux - multi screen terminal cheat sheet  https://gist.github.com/MohamedAlaa/2961058
+
 socat - run python sript on incoming tcp / serial connection http://technostuff.blogspot.co.il/2008/10/some-useful-socat-commands.html
 
 --- backdoors &shells --------
+
 backdoor factory: https://github.com/secretsquirrel/the-backdoor-factory
+
 shell code home page : http://shell-storm.org/shellcode/
 
 
