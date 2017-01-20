@@ -273,7 +273,7 @@ Phishing (Optional):
 -----ELF---------
 readelf is a Unix binary utility that displays information about one or more ELF files. A free software implementation is provided by GNU Binutils.
 
-elfutils provides alternative tools to GNU Binutils purely for Linux.
+elfutils ( need to apt-get elfutils ) provides alternative tools to GNU Binutils purely for Linux. (https://sourceware.org/elfutils/)
 
 elfdump is a command for viewing ELF information in an ELF file, available under Solaris and FreeBSD.
 
