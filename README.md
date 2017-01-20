@@ -5,31 +5,31 @@ ctf prep
 
 oracle's virtual box http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html
 ubuntu  https://www.ubuntu.com/download/desktop/thank-you?version=16.04.1&architecture=amd64
-shell code home page : http://shell-storm.org/shellcode/
+kali linux - http://www.kali.org/downloads/ or https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/ (u: root p:toor)
 minigw :http://www.mingw.org/
-IDA  
+IDA  - https://www.hex-rays.com/products/ida/support/download_demo.shtml 
 python  https://www.python.org/downloads/
 sublime  https://www.sublimetext.com/3
 sysinternals https://technet.microsoft.com/en-us/sysinternals/bb896653
 cygwin https://cygwin.com/install.html
 wireshark https://www.wireshark.org/#download
 x64 debuger http://x64dbg.com/#start
+metaspoit https://www.rapid7.com/products/metasploit/download.jsp
+
+---------usefull ------
+tmux - multi screen terminal cheat sheet  https://gist.github.com/MohamedAlaa/2961058
+socat - run python sript on incoming tcp / serial connection http://technostuff.blogspot.co.il/2008/10/some-useful-socat-commands.html
+
+--- backdoors &shells --------
+backdoor factory: https://github.com/secretsquirrel/the-backdoor-factory
+shell code home page : http://shell-storm.org/shellcode/
 
 
 ---------------------THP2----------------------------------- dup from  cheetz's git hub page  for ease
 The Hacker Playbook 2
 http://www.amazon.com/dp/1512214566/
 
-Since this book is based off of the Kali Linux platform, you can download the Kali Linux distro from: http://www.kali.org/downloads/. I highly recommend you download the VMware image (https://www.offensive-security.com/kali-linux-vmware-arm-image-download/) and download Virtual Player/VirtualBox. Remember that it will be a gz-compressed and tar archived file, so make sure to extract them first and load the vmx file.
-
 Once Your Kali VM is Up and Running
-●	Log in with the username root and the default password toor
-●	Open a terminal
-●	Change the password
-	○	passwd
-●	Update the image
-	○	apt-get update
-	○	apt-get dist-upgrade
 ●	Setup Metasploit database
 	○	service postgresql start
 ●	Make postgresql database start on boot
@@ -251,8 +251,6 @@ Phishing (Optional):
 	○	git clone https://github.com/pentestgeek/phishing-frenzy.git /var/www/phishing-frenzy
 ●	Custom List of Extras
 	○	git clone https://github.com/macubergeek/gitlist.git /opt/gitlist
-
-*Remember to check http://thehackerplaybook.com/updates/ for any updates.
 
 
 -------------- end of THP2 -----------
