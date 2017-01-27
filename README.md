@@ -39,6 +39,8 @@ backdoor factory: https://github.com/secretsquirrel/the-backdoor-factory
 
 shell code home page : http://shell-storm.org/shellcode/
 
+AFL (american fuzzy lop) - http://lcamtuf.coredump.cx/afl/
+
 
 ---------------------THP2----------------------------------- dup from  cheetz's git hub page  for ease
 The Hacker Playbook 2
