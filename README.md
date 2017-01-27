@@ -33,13 +33,15 @@ tmux - multi screen terminal cheat sheet  https://gist.github.com/MohamedAlaa/29
 
 socat - run python sript on incoming tcp / serial connection http://technostuff.blogspot.co.il/2008/10/some-useful-socat-commands.html
 
+AFL (american fuzzy lop) - http://lcamtuf.coredump.cx/afl/
+
 --- backdoors &shells --------
 
 backdoor factory: https://github.com/secretsquirrel/the-backdoor-factory
 
 shell code home page : http://shell-storm.org/shellcode/
 
-AFL (american fuzzy lop) - http://lcamtuf.coredump.cx/afl/
+
 
 
 ---------------------THP2----------------------------------- dup from  cheetz's git hub page  for ease
