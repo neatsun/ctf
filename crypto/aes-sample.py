@@ -1,3 +1,4 @@
+# make sure u  : pip install pyCrypto
 import base64
 from Crypto.Cipher import AES
 from Crypto import Random
