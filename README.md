@@ -15,8 +15,6 @@ IDA  - https://www.hex-rays.com/products/ida/support/download_demo.shtml
 
 python  https://www.python.org/downloads/
 
-sublime  https://www.sublimetext.com/3
-
 sysinternals https://technet.microsoft.com/en-us/sysinternals/bb896653
 
 cygwin https://cygwin.com/install.html
@@ -26,6 +24,11 @@ wireshark https://www.wireshark.org/#download
 x64 debuger http://x64dbg.com/#start
 
 metaspoit https://www.rapid7.com/products/metasploit/download.jsp
+
+-- IDE --------
+Pycharm https://www.jetbrains.com/pycharm/download/
+
+sublime  https://www.sublimetext.com/3
 
 ---------usefull ------
 
