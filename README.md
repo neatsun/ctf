@@ -26,6 +26,7 @@ x64 debuger http://x64dbg.com/#start
 metaspoit https://www.rapid7.com/products/metasploit/download.jsp
 
 -- IDE --------
+
 Pycharm https://www.jetbrains.com/pycharm/download/
 
 sublime  https://www.sublimetext.com/3
