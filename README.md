@@ -25,6 +25,8 @@ x64 debuger http://x64dbg.com/#start
 
 metaspoit https://www.rapid7.com/products/metasploit/download.jsp
 
+nmap https://nmap.org/download.html
+
 -- IDE --------
 
 Pycharm https://www.jetbrains.com/pycharm/download/
