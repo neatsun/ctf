@@ -297,3 +297,7 @@ sudo socat TCP-LISTEN:80,reuseaddr,fork EXEC:"./chroot",su=bender,echo=0,pty,std
 
 -email 
 https://www.guerrillamail.com/  - temp email 
+
+
+
+--- wireshark add private key https://blogs.technet.microsoft.com/nettracer/2013/10/12/decrypting-ssltls-sessions-with-wireshark-reloaded/
