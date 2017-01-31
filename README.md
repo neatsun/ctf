@@ -288,3 +288,8 @@ elfdump is a command for viewing ELF information in an ELF file, available under
 objdump provides a wide range of information about ELF files and other object formats. objdump uses the Binary File Descriptor library as a back-end to structure the ELF data.
 
 The Unix file utility can display some information about ELF files, including the instruction set architecture for which the code in a relocatable, executable, or shared object file is intended, or on which an ELF core dump was produced.
+
+
+-- SOCAT ------- raise your own network server by running a local software [ note the EXEC param] 
+sudo socat TCP-LISTEN:80,reuseaddr,fork EXEC:"./chroot",su=bender,echo=0,pty,stderr
+
