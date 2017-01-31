@@ -293,3 +293,7 @@ The Unix file utility can display some information about ELF files, including th
 -- SOCAT ------- raise your own network server by running a local software [ note the EXEC param] 
 sudo socat TCP-LISTEN:80,reuseaddr,fork EXEC:"./chroot",su=bender,echo=0,pty,stderr
 
+
+
+-email 
+https://www.guerrillamail.com/  - temp email 
