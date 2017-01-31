@@ -304,3 +304,6 @@ https://www.guerrillamail.com/  - temp email
 
 --- wireshark add private key https://blogs.technet.microsoft.com/nettracer/2013/10/12/decrypting-ssltls-sessions-with-wireshark-reloaded/  = NOTE : u can set server ip to *.*.*.* 
 
+
+
+-- web content management fingerprinting https://github.com/jekyc/wig
