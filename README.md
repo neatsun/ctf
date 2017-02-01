@@ -309,3 +309,5 @@ https://www.guerrillamail.com/  - temp email
 -- web content management fingerprinting https://github.com/jekyc/wig
 
 -- code flow solver https://github.com/angr/angr
+
+--online disassembler - https://retdec.com ( including MIPS)
