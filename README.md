@@ -41,6 +41,9 @@ socat - run python sript on incoming tcp / serial connection http://technostuff.
 
 AFL (american fuzzy lop) - http://lcamtuf.coredump.cx/afl/
 
+-disposable email  https://www.guerrillamail.com/  - temp email 
+
+
 --- backdoors &shells --------
 
 backdoor factory: https://github.com/secretsquirrel/the-backdoor-factory
@@ -48,6 +51,13 @@ backdoor factory: https://github.com/secretsquirrel/the-backdoor-factory
 shell code home page : http://shell-storm.org/shellcode/
 
 
+-------- WEb -------------
+
+Burp -   https://portswigger.net/burp/download.html
+
+Proxy changer plugin https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm?hl=en
+
+fiddler  - https://www.telerik.com/download/fiddler
 
 
 ---------------------THP2----------------------------------- dup from  cheetz's git hub page  for ease
@@ -297,13 +307,9 @@ sudo socat TCP-LISTEN:80,reuseaddr,fork EXEC:"./chroot",su=bender,echo=0,pty,std
 
 
 
--email 
-https://www.guerrillamail.com/  - temp email 
-
 
 
 --- wireshark add private key https://blogs.technet.microsoft.com/nettracer/2013/10/12/decrypting-ssltls-sessions-with-wireshark-reloaded/  = NOTE : u can set server ip to *.*.*.* 
-
 
 
 -- web content management fingerprinting https://github.com/jekyc/wig
