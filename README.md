@@ -152,8 +152,10 @@ Printer Exploits
 ●	git clone https://github.com/MooseDojo/praedasploit /opt/praedasploit
 
 SQLMap
-●	SQL Injection tool
-●	git clone https://github.com/sqlmapproject/sqlmap /opt/sqlmap
+------
+	SQL Injection tool
+	git clone https://github.com/sqlmapproject/sqlmap /opt/sqlmap
+u can user with cookie   by adding --cookie="birthday_invite=1234"
 
 Recon-ng
 ●	A full-featured web reconnaissance framework written in Python
