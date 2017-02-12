@@ -27,6 +27,8 @@ metaspoit https://www.rapid7.com/products/metasploit/download.jsp
 
 nmap https://nmap.org/download.html
 
+winscp https://winscp.net/eng/download.php
+
 -- IDE --------
 
 Pycharm https://www.jetbrains.com/pycharm/download/
@@ -40,6 +42,8 @@ tmux - multi screen terminal cheat sheet  https://gist.github.com/MohamedAlaa/29
 socat - run python sript on incoming tcp / serial connection http://technostuff.blogspot.co.il/2008/10/some-useful-socat-commands.html
 
 AFL (american fuzzy lop) - http://lcamtuf.coredump.cx/afl/
+
+strings - shows strings in ELF file 
 
 -disposable email  https://www.guerrillamail.com/  - temp email 
 
