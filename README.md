@@ -13,6 +13,8 @@ minigw :http://www.mingw.org/
 
 IDA  - https://www.hex-rays.com/products/ida/support/download_demo.shtml 
 
+.net reflector http://www.red-gate.com/dynamic/products/dotnet-development/reflector/download
+
 python  https://www.python.org/downloads/
 
 sysinternals https://technet.microsoft.com/en-us/sysinternals/bb896653
