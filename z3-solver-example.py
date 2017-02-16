@@ -1,4 +1,5 @@
 # download z3 from: https://github.com/Z3Prover/z3/wiki/Using%20Z3Py%20on%20Windows
+#be sure to add the extarct'd zip files' Bin dir to your path   [ path=%path%c:\z3\bin; ] 
 #
 # problem with 3 params
 #-------------------
