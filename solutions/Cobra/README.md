@@ -7,7 +7,7 @@ To solve this issue the doctor used his cyber skills to write an extra-super-sop
 
 Or is it? 
 
-The system can be accessed at http://<IP>/public. 
+The system can be accessed at http://\<IP\>/public. 
 
 Can you get the flag before piza arrives?
 
