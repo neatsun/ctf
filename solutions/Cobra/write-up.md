@@ -77,13 +77,13 @@ That didn't work... maybe it isn't written in python?
 
 Let's try to visit 
 
-http://104.198.80.195/public/index.py - Nope!
+http://\<IP\>/public/index.py - Nope!
 
 maybe
 
-http://104.198.80.195/public/index.php - Nope :(
+http://\<IP\>/public/index.php - Nope :(
 
-http://104.198.80.195/public/index.pl - It works!
+http://\<IP\>/public/index.pl - It works!
 
 So the index page is written in perl.
 
