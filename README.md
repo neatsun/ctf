@@ -325,3 +325,5 @@ sudo socat TCP-LISTEN:80,reuseaddr,fork EXEC:"./chroot",su=bender,echo=0,pty,std
 -- code flow solver https://github.com/angr/angr
 
 --online disassembler - https://retdec.com ( including MIPS)
+
+-- pgp on ubuntu guide --- https://www.deepdotweb.com/2015/02/17/basic-guide-pgp-linux/
