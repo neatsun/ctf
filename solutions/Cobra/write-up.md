@@ -18,7 +18,7 @@ Will return something along
 	"A' or 1 #<" 
 (so just < isn't sanitized here)
 
-**Incidentily every character is sanitized only once**, so
+**Incidentally every character is sanitized only once**, so
 
   email = "A' or 1 # == "
 
