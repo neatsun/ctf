@@ -128,7 +128,8 @@ Perl has a weird way of expanding hashes, as I learned from [this](http://www.yo
 
 We can use the same method to insert an arbitrary command to open.
 Any of the other variables (header, footer or form) can be replaced with a command in the following way:
-`http://\<IP\>/public/index.pl?error=e&error=form&error=|ls`
+
+`http://<IP>/public/index.pl?error=e&error=form&error=|ls`
 
 Where the second parameter will be the variable we want to inject into, and the third will be the command executed. 
 We get the output piped to us.
