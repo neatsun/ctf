@@ -15,7 +15,7 @@ Can you get the flag before piza arrives?
 [Daniel's write-up](write-up.md)
 
 ## Scripts
-[by Michael's script](pgp-util.py)
+[Michael's script](pgp-util.py)
 
 ## Source
 [index](index.pl)
