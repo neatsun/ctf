@@ -90,8 +90,8 @@ which gives us:
 
 ## RCE
 
-Inside the index page there are no execute() or system() functions, so RCE is not really straight forward.
-However, googling for "perl rce" landed me on [this](http://www.cgisecurity.com/lib/sips.html) page, which includes a section about how open() can be used for RCE:
+Inside the index page there are no exec() or system() functions, so RCE is not really straight forward.
+However, googling for "perl open() rce" landed me on [this](http://www.cgisecurity.com/lib/sips.html) page, which includes a section about how open() can be used for RCE:
 >If the filename begins with "|", the filename is interpreted as a command to which output is to be piped, and if the filename ends with a "|", the filename is interpreted as a command which pipes output to us.
 
 open() is being called from the get_template subroutine:
