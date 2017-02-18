@@ -124,7 +124,7 @@ This function is called 3 times, each time with an argument from the list :
 	);
 
 "error" can be injected into, in the form of a parameter.
-Perl has a wierd way of expanding hashes, as I learned from [this](http://www.youtube.com/watch?v=noQcWra6sbU&t=6m33s) talk .
+Perl has a weird way of expanding hashes, as I learned from [this](http://www.youtube.com/watch?v=noQcWra6sbU&t=6m33s) talk .
 
 We can use the same method to insert an arbitrary command to open.
 Any of the other variables (header, footer or form) can be replaced with a command in the following way:
