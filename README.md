@@ -329,3 +329,4 @@ sudo socat TCP-LISTEN:80,reuseaddr,fork EXEC:"./chroot",su=bender,echo=0,pty,std
 -- pgp on ubuntu guide --- https://www.deepdotweb.com/2015/02/17/basic-guide-pgp-linux/   [ gpg  --decrypt  filename.txt.gpg]
 -- gdb-peda -- https://github.com/longld/peda -- Enhance the display of gdb: colorize and display disassembly codes, registers, memory information during debugging
 -- root-me -- https://www.root-me.org
+-- exploit pattern -- https://github.com/Svenito/exploit-pattern
