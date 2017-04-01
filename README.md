@@ -314,7 +314,7 @@ The Unix file utility can display some information about ELF files, including th
 sudo socat TCP-LISTEN:80,reuseaddr,fork EXEC:"./chroot",su=bender,echo=0,pty,stderr
 
 
-
+PYTHON PWN FRAMEWORK http://docs.pwntools.com/en/stable/intro.html
 
 
 --- wireshark add private key https://blogs.technet.microsoft.com/nettracer/2013/10/12/decrypting-ssltls-sessions-with-wireshark-reloaded/  = NOTE : u can set server ip to *.*.*.* 
