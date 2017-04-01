@@ -324,6 +324,8 @@ PYTHON PWN FRAMEWORK http://docs.pwntools.com/en/stable/intro.html
 
 -- code flow solver https://github.com/angr/angr
 
+-- linux PIE and NX file checker http://blog.siphos.be/2011/07/high-level-explanation-on-some-binary-executable-security/
+
 --online disassembler - https://retdec.com ( including MIPS)
 
 -- pgp on ubuntu guide --- https://www.deepdotweb.com/2015/02/17/basic-guide-pgp-linux/   [ gpg  --decrypt  filename.txt.gpg]
