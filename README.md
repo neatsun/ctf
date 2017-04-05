@@ -332,3 +332,5 @@ PYTHON PWN FRAMEWORK http://docs.pwntools.com/en/stable/intro.html
 -- gdb-peda -- https://github.com/longld/peda -- Enhance the display of gdb: colorize and display disassembly codes, registers, memory information during debugging
 -- root-me -- https://www.root-me.org
 -- exploit pattern -- https://github.com/Svenito/exploit-pattern
+
+--- binn walk forensics https://github.com/devttys0/binwalk
