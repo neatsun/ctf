@@ -334,3 +334,5 @@ PYTHON PWN FRAMEWORK http://docs.pwntools.com/en/stable/intro.html
 -- exploit pattern -- https://github.com/Svenito/exploit-pattern
 
 --- binn walk forensics https://github.com/devttys0/binwalk
+
+explenation on how calling functions actuallly work https://www.cs.princeton.edu/courses/archive/spring11/cos217/lectures/15AssemblyFunctions.pdf
