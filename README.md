@@ -336,6 +336,7 @@ PYTHON PWN FRAMEWORK http://docs.pwntools.com/en/stable/intro.html
 --- binn walk forensics https://github.com/devttys0/binwalk
 
 explenation on how calling functions actuallly work https://www.cs.princeton.edu/courses/archive/spring11/cos217/lectures/15AssemblyFunctions.pdf
+http://www.cs.nyu.edu/courses/fall04/V22.0201-003/ia32_chap_03.pdf
 
 
 ASM OPCODES  http://www.mathemainzel.info/files/x86asmref.html#jne
