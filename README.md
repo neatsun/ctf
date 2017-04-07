@@ -340,3 +340,6 @@ http://www.cs.nyu.edu/courses/fall04/V22.0201-003/ia32_chap_03.pdf
 
 
 ASM OPCODES  http://www.mathemainzel.info/files/x86asmref.html#jne
+
+
+anti reversing explained https://www.codeproject.com/Articles/30815/An-Anti-Reverse-Engineering-Guide
