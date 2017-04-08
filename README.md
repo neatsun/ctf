@@ -31,6 +31,8 @@ nmap https://nmap.org/download.html
 
 winscp https://winscp.net/eng/download.php
 
+burp [Web proxy like fiddler with active abilities ] http://portswigger.net/burp/proxy.html
+
 -- IDE --------
 
 Pycharm https://www.jetbrains.com/pycharm/download/
@@ -254,10 +256,6 @@ Veil-Framework
 ●	A red team toolkit focused on evading detection. It currently contains Veil-Evasion for generating AV-evading payloads, Veil-Catapult for delivering them to targets, and Veil-PowerView for gaining situational awareness on Windows domains. Veil will be used to create a python based Meterpreter executable.
 ●	git clone https://github.com/Veil-Framework/Veil /opt/Veil
 ●	cd /opt/Veil/ && ./Install.sh -c
-
-Burp Suite Pro
-●	Web Penetration Testing Tool
-●	Download: http://portswigger.net/burp/proxy.html. I would highly recommend that you buy the professional version. It is well worth the $299 price tag.
 
 ZAP Proxy Pro
 ●	OWASP ZAP: An easy-to-use integrated penetration testing tool for discovering vulnerabilities in web applications.
