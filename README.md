@@ -4,7 +4,7 @@ ctf prep
 
 
 oracle's virtual box http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html
-
+   *** see https://www.virtualbox.org/manual/ch06.html#network_nat_service  for data on NAT Network 
 ubuntu  https://www.ubuntu.com/download/desktop/thank-you?version=16.04.1&architecture=amd64
 
 kali linux - http://www.kali.org/downloads/ or https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/ (u: root p:toor)
@@ -343,3 +343,5 @@ ASM OPCODES  http://www.mathemainzel.info/files/x86asmref.html#jne
 
 
 anti reversing explained https://www.codeproject.com/Articles/30815/An-Anti-Reverse-Engineering-Guide
+
+
