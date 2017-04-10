@@ -6,6 +6,7 @@ ctf prep
 oracle's virtual box http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html
    *** see https://www.virtualbox.org/manual/ch06.html#network_nat_service  for data on NAT Network 
 ubuntu  https://www.ubuntu.com/download/desktop/thank-you?version=16.04.1&architecture=amd64
+	* add 32 bit elf support  sudo apt-get install libc6-i386
 
 kali linux - http://www.kali.org/downloads/ or https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/ (u: root p:toor)
 
