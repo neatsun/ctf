@@ -343,3 +343,4 @@ ASM OPCODES  http://www.mathemainzel.info/files/x86asmref.html#jne
 anti reversing explained https://www.codeproject.com/Articles/30815/An-Anti-Reverse-Engineering-Guide
 
 
+hash cracker https://crackstation.net/
