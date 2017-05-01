@@ -16,7 +16,7 @@ IDA  - https://www.hex-rays.com/products/ida/support/download_demo.shtml
 
 .net reflector http://www.red-gate.com/dynamic/products/dotnet-development/reflector/download
 
-python  https://www.python.org/downloads/
+python  https://www.python.org/downloads/   [https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/]
 
 sysinternals https://technet.microsoft.com/en-us/sysinternals/bb896653
 
