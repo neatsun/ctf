@@ -299,6 +299,7 @@ Phishing (Optional):
 
 -----ELF---------
 readelf is a Unix binary utility that displays information about one or more ELF files. A free software implementation is provided by GNU Binutils.
+details on elf http://fluxius.handgrep.se/2011/10/20/the-art-of-elf-analysises-and-exploitations/
 
 elfutils ( need to apt-get elfutils ) provides alternative tools to GNU Binutils purely for Linux. (https://sourceware.org/elfutils/)
 
