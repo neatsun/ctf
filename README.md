@@ -348,3 +348,6 @@ anti reversing explained https://www.codeproject.com/Articles/30815/An-Anti-Reve
 hash cracker https://crackstation.net/
 
 LD preload trick ( overrite functions from libs in mem) : http://stackoverflow.com/questions/426230/what-is-the-ld-preload-trick
+
+
+Javascript JS obfuscation http://utf-8.jp/public/jjencode.html
