@@ -1,0 +1,25 @@
+#!/usr/bin/python
+
+# to be used after BinWalk -Me to extract the part from the address givven 
+#dont forget to run FILE command on the output to see what u got 
+
+import sys
+
+in_file_name='flag_peg.jpg'
+out_file_name='out.7z'
+
+the_location=341939
+the_size=999999
+
+
+in_fl = open(in_file_name, 'rb').read()
+out_fl = open(out_file_name, 'wb')
+
+for i in  range(the_location,the_location+the_size):
+	if i<len(in_fl):
+		out_fl.write(in_fl[i])
+
+
+############ 3 just RGB #############
+
+out_fl.close
