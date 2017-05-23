@@ -1,4 +1,4 @@
 https://github.com/igniteflow/violent-python/tree/master/pwd-crackers
 
 
-https://github.com/hyc/fcrackzip  [build:  ./configure; ./make] [usage :  crackzip -v -m zip2 -l 1-8 -u AD3E.zip  ]
+https://github.com/hyc/fcrackzip  [build:  sudo apt-get install libzip-dev;  ./configure; ./make] [usage :  crackzip -v -m zip2 -l 1-8 -u AD3E.zip  ]
