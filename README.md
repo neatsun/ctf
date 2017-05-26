@@ -353,3 +353,5 @@ LD preload trick ( overrite functions from libs in mem) : http://stackoverflow.c
 Javascript JS obfuscation http://utf-8.jp/public/jjencode.html
 
 find U& P for common sites : http://bugmenot.com
+
+ropper  https://github.com/sashs/Ropper  (pip install ropper ...  u may need   sudo apt-get install python-capstone)
