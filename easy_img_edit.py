@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python   ***
 
 #dont forget to pip install pilow
 ############### 4 colors RGBA  ############
